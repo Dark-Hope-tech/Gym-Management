@@ -10,7 +10,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author Harshit
+ * 
  */
 public class GymHall extends javax.swing.JFrame {
 

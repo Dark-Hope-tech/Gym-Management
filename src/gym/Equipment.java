@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Harshit
+ * 
  */
 public class Equipment extends javax.swing.JFrame {
 

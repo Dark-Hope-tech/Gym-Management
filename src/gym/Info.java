@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author Harshit
+ * 
  */
 public class Info {
     String ID;

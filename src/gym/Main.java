@@ -7,10 +7,12 @@ package gym;
 
 /**
  *
- * @author Harshit
+ *
  */
 public class Main extends javax.swing.JFrame {
-    public static int checker = 0;    
+
+    public static int checker = 0;
+
     /**
      * Creates new form Main
      */
@@ -53,8 +55,8 @@ public class Main extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(0, 0, 0,0));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Perpetua", 1, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Gym Management");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -79,27 +81,30 @@ public class Main extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(0, 0, 0,0));
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        jButton1.setBackground(new java.awt.Color(223, 216, 202));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jButton1.setText("Admin");
-        jButton1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 5, true));
+        jButton1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(20, 47, 67), 5, true));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(223, 216, 202));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jButton2.setText("Trainer");
-        jButton2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 5, true));
+        jButton2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(20, 47, 67), 5, true));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(223, 216, 202));
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jButton3.setText("Customer");
-        jButton3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 5, true));
+        jButton3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(20, 47, 67), 5, true));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -132,8 +137,11 @@ public class Main extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 830, 370));
 
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gym/gymnew.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 935, 553));
+        jLabel2.setPreferredSize(new java.awt.Dimension(1020, 900));
+        jLabel2.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 990, 900));
 
         setSize(new java.awt.Dimension(953, 600));
         setLocationRelativeTo(null);
@@ -141,7 +149,7 @@ public class Main extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        checker=1;
+        checker = 1;
         Login l = new Login();
         l.setVisible(true);
         this.hide();
@@ -149,7 +157,7 @@ public class Main extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        checker=2;
+        checker = 2;
         Login l = new Login();
         l.setVisible(true);
         this.hide();
@@ -157,7 +165,7 @@ public class Main extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        checker=3;
+        checker = 3;
         Login l = new Login();
         l.setVisible(true);
         this.hide();
@@ -189,7 +197,7 @@ public class Main extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-        
+
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
