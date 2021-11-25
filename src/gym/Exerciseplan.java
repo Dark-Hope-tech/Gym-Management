@@ -97,6 +97,12 @@ public class Exerciseplan extends javax.swing.JFrame {
 
         txtplan.setHorizontalAlignment(javax.swing.JTextField.CENTER);
 
+        txtequip.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtequipActionPerformed(evt);
+            }
+        });
+
         txtduration.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1 Hour", "2 Hour", "3 Hour", "4 Hour", "5 Hour", "6 Hour" }));
         txtduration.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -213,6 +219,10 @@ public class Exerciseplan extends javax.swing.JFrame {
     private void txtdurationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtdurationActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtdurationActionPerformed
+
+    private void txtequipActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtequipActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtequipActionPerformed
 
     public void load_equipment(){
         int c = Database.EquipmentList.size();
