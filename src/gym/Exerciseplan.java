@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Harshit
+ * 
  */
 public class Exerciseplan extends javax.swing.JFrame {
 

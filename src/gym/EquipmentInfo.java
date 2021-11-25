@@ -7,7 +7,7 @@ package gym;
 
 /**
  *
- * @author Harshit
+ * 
  */
 public class EquipmentInfo {
     String ID;

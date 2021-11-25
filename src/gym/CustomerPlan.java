@@ -11,7 +11,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Harshit
+ * 
  */
 public class CustomerPlan extends javax.swing.JFrame {
 

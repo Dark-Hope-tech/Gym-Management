@@ -7,7 +7,7 @@ package gym;
 
 /**
  *
- * @author Harshit
+ * 
  */
 import java.util.ArrayList;
 import java.util.HashMap;
