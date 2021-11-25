@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Harshit
+ * 
  */
 public class Trainer extends javax.swing.JFrame {
 

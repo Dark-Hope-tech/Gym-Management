@@ -148,7 +148,7 @@ public class Login extends javax.swing.JFrame {
         String uname = txtuname.getText();
         String pass = txtpass.getText();
         
-        if(uname.isEmpty() && pass.isEmpty()){
+        if(uname.isEmpty() || pass.isEmpty()){
                 JOptionPane.showMessageDialog(this, "Username or password is Blank!");
         }
         
