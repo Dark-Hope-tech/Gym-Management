@@ -49,9 +49,9 @@ public class CustomerPlan extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(0, 0,0, 0));
+        jPanel1.setOpaque(false);
 
         jLabel2.setFont(new java.awt.Font("Perpetua", 1, 48)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Plan Subscription");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -82,6 +82,7 @@ public class CustomerPlan extends javax.swing.JFrame {
                 "Trainer Name", "Exercise Plan Name", "Equipment 1", "Equipment 2"
             }
         ));
+        jTable1.setOpaque(false);
         jTable1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jTable1MouseClicked(evt);
@@ -100,6 +101,7 @@ public class CustomerPlan extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 40, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 0,0));
+        jPanel2.setOpaque(false);
 
         txttime.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         txttime.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "8-10", "10-12", "12-14", "14-16", "16-18", "18-20" }));
@@ -143,8 +145,10 @@ public class CustomerPlan extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 410, 430, 120));
 
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gym/subscribe.jpg"))); // NOI18N
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 935, 553));
+        jLabel3.setPreferredSize(new java.awt.Dimension(1020, 1000));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 920));
 
         setSize(new java.awt.Dimension(953, 600));
         setLocationRelativeTo(null);
