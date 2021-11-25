@@ -7,7 +7,7 @@ package gym;
 
 /**
  *
- * @author Harshit
+ *
  */
 public class Admin extends javax.swing.JFrame {
 
