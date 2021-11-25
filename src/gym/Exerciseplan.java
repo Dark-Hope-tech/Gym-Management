@@ -97,7 +97,7 @@ public class Exerciseplan extends javax.swing.JFrame {
 
         txtplan.setHorizontalAlignment(javax.swing.JTextField.CENTER);
 
-        txtduration.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2 Hour" }));
+        txtduration.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1 Hour", "2 Hour", "3 Hour", "4 Hour", "5 Hour", "6 Hour" }));
         txtduration.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtdurationActionPerformed(evt);
@@ -173,7 +173,7 @@ public class Exerciseplan extends javax.swing.JFrame {
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 430, 130, -1));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gym/exerciceplan.jpg"))); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 935, 553));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 935, 553));
 
         setSize(new java.awt.Dimension(953, 600));
         setLocationRelativeTo(null);
